@@ -30,12 +30,25 @@ const foodsStore = createSlice({
       } else {
         state.cartList.push(action.payload)
       }
+    },
+    increCount (state, action) {
+      const item = state.cartList.find(item => item.id === action.payload.id)
+      item.count++
+    },
+    decreCount (state, action) {
+      const item = state.cartList.find(item => item.id === action.payload.id)
+      if (item.count === 0) return
+      item.count--
+    },
+    // 清除购物车
+    clearCart (state) {
+      state.cartList = []
     }
   }
 })
 
 // 异步获取部分
-const { setFoodsList, changeActiveIndex, addCart } = foodsStore.actions
+const { setFoodsList, changeActiveIndex, addCart, increCount, decreCount, clearCart } = foodsStore.actions
 const fetchFoodsList = () => {
   return async (dispatch) => {
     // 编写异步逻辑
@@ -46,7 +59,7 @@ const fetchFoodsList = () => {
 }
 
 
-export { fetchFoodsList, changeActiveIndex, addCart }
+export { fetchFoodsList, changeActiveIndex, addCart, increCount, decreCount, clearCart }
 
 const reducer = foodsStore.reducer
 
