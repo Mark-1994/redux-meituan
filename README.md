@@ -14,5 +14,7 @@ npm run serve
 
 ```bash
 npm run start
-
 ```
+
+# 参考项目
+[https://h5.waimai.meituan.com/waimai/mindex/home](https://h5.waimai.meituan.com/waimai/mindex/home)
