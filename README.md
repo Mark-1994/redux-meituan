@@ -16,5 +16,8 @@ npm run serve
 npm run start
 ```
 
+# 线上地址
+[https://mark-1994.github.io/redux-meituan/](https://mark-1994.github.io/redux-meituan/)
+
 # 参考项目
 [https://h5.waimai.meituan.com/waimai/mindex/home](https://h5.waimai.meituan.com/waimai/mindex/home)
