@@ -52,7 +52,7 @@ const { setFoodsList, changeActiveIndex, addCart, increCount, decreCount, clearC
 const fetchFoodsList = () => {
   return async (dispatch) => {
     // 编写异步逻辑
-    const res = await axios.get('http://localhost:3004/takeaway')
+    const res = await axios.get(`${process.env.REACT_APP_BASE_URL}/takeaway`)
     // 调用dispatch函数提交action
     dispatch(setFoodsList(res.data))
   }
