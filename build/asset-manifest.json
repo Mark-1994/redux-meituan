@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/redux-meituan/static/css/main.55703426.css",
-    "main.js": "/redux-meituan/static/js/main.a6293a16.js",
+    "main.js": "/redux-meituan/static/js/main.d840cd7f.js",
     "index.html": "/redux-meituan/index.html",
     "main.55703426.css.map": "/redux-meituan/static/css/main.55703426.css.map",
-    "main.a6293a16.js.map": "/redux-meituan/static/js/main.a6293a16.js.map"
+    "main.d840cd7f.js.map": "/redux-meituan/static/js/main.d840cd7f.js.map"
   },
   "entrypoints": [
     "static/css/main.55703426.css",
-    "static/js/main.a6293a16.js"
+    "static/js/main.d840cd7f.js"
   ]
 }
