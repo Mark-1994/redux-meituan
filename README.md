@@ -62,3 +62,4 @@ npm run start
 
 - **在线预览**：https://mark-1994.github.io/redux-meituan/
 - **参考 UI**：[美团外卖 H5 端](https://h5.waimai.meituan.com/waimai/mindex/home)
+- **接口部署**：https://dashboard.suga.app/
